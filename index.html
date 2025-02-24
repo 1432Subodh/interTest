@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="z-10">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container d-flex p-2 justify-content-between align-items-center">
+                <div class="d-flex gap-3">
+                    <span class="d-none d-md-inline">Visit our social pages:</span>
+                    <span>
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                    </span>
+                </div>
+                <div>
+                    <i class="bi bi-telephone-fill"></i> <span>+91 63952 80045</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm nav">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="bi bi-code-slash"></i> VORTEX CLASSES
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav gap-4 ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Book Demo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- hero -->
+    <main class="hero-main">
+        <div class="hero-section">
+            <img src="arrow.png" alt="" class="arrow-img">
+            <ul>
+                <li class="hero-list-item">TAILORED LEARNING: PERSONALIZED LESSONS DESIGNED FOR YOUR STRENGTHS AND WEAKNESSES.</li>
+            </ul>
+            <h1 class="hero-heading">
+                Flexible Scheduling: Classes available at your preferred time
+            </h1>
+            <p class="hero-des">Our Flexible Scheduling allows you to take classes at a time that best fits your routine.</p>
+
+            <!-- Buttons -->
+            <div class="d-flex gap-3 align-items-center">
+                <button class="hero-btn1">
+                    <i class="bi bi-calendar3"></i> BOOK YOUR FREE TRIAL NOW
+                </button>
+                <button class="hero-btn2">
+                    <i class="bi bi-play-fill"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Image with circular background -->
+        <div class="hero-image-container">
+            <div class="hero-design-circle"></div>
+            <img src="girl1.png" alt="Student" class="hero-img">
+        </div>
+    </main>
+
+    
+
+    <!-- second section  -->
+
+    <div class="container py-6 position-relative z-10">
+        <div class="all-feature-box row g-4">
+            <!-- Box 1 -->
+            <div class="col-md-4 col-12">
+                <div class="feature-box border border-warning">
+                    <div class="icon-circle bg-warning">
+                        <i class="bi bi-bank fs-3"></i>
+                    </div>
+                    <h5>Natural Learning Style Methodology Adopted</h5>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="col-md-4 col-12">
+                <div class="feature-box border border-primary">
+                    <div class="icon-circle bg-primary">
+                        <i class="bi bi-journal-text fs-3"></i>
+                    </div>
+                    <h5>Dedicated Academic Counselor</h5>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="col-md-4 col-12">
+                <div class="feature-box border border-success">
+                    <div class="icon-circle bg-success">
+                        <i class="bi bi-mortarboard fs-3"></i>
+                    </div>
+                    <h5>Customized Session As Per Individual Board/Curriculum</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- third section -->
+    <!-- <div class="third-section container d-flex">
+        <div class="w-50  third-img-section position-relative">
+            <img src="boy.png" class="third-img-div"/>
+            
+        </div>
+        <div class="bg-success h-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo ullam dicta. Quod voluptate sed quibusdam debitis ut voluptatum delectus temporibus accusantium ipsa.
+        </div>
+     </div> -->
+     <div class="container px-4 about-section">
+        <div class="row align-items-center">
+            <div class="col-md-5 text-center position-relative">
+                <div class="about-image position-relative">
+                    <img src="boy.png" alt="Main Image" class="main-image">
+                    <img src="girls.png" class="small-circle img-fluid" alt="Small Circle Image">
+                    <div class="years-badge">
+                        <span>5+</span> YEARS OF EXCELLENCE IN EDUCATION
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-7">
+                <p class="text-warning fw-bold"><i class="bi bi-square-fill" style="padding-right: 10px;"></i> ABOUT US</p>
+                <h2 class="fw-bold">Inspiring Growth, Excellence, And Confidence</h2>
+                <p class="text-muted">
+                    We are committed to providing exceptional academic guidance and personal development support. Our
+                    focus is to empower students to achieve their highest potential in both academics and life, ensuring
+                    they succeed with confidence.
+                </p>
+    
+                <div class="info-card">
+                    <i class="bi bi-check-circle bg-danger"></i>
+                    <div>
+                        <h6 class="fw-bold">Successfully Trained</h6>
+                        <p class="text-muted">Over 10 years of helping students excel with personalized teaching methods.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="bi bi-check-circle bg-primary"></i>
+                    <div>
+                        <h6 class="fw-bold ">Education Growth</h6>
+                        <p class="text-muted">Fostering academic excellence and building a foundation for lifelong learning.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="bi bi-check-circle bg-warning"></i>
+                    <div>
+                        <h6 class="fw-bold">Students Empowered</h6>
+                        <p class="text-muted">Equipping students with skills, knowledge, and strategies to overcome challenges.</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="bi bi-check-circle bg-success"></i>
+                    <div>
+                        <h6 class="fw-bold">Building Success</h6>
+                        <p class="text-muted">Creating a learning environment that nurtures confidence and achievement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="d-flex justify-content-center py-5">
+            <div class="info-box">
+                <div>
+                    <span class="count">43 </span><span class="count">+</span>
+                    <span class="text">MORE STUDENTS HAVE COMPLETED THIS COURSE.</span>
+                </div>
+                <a href="#" class="btn-contact">CONTACT US</a>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn-contact">CONTACT US</a> -->
+    </div>
+    
+
+
+
+    <!-- fourth-section -->
+    <div class="fourth-section position-relative">
+        <div>
+
+            <img src="girls.png" alt="" class="fourth-section-img">
+
+            <img src="book.png" alt="" class="fourth-section-img2">
+        </div>
+        <div class="fourth-section-content">
+            <h5>Study Flexibly With Confidence</h5>
+            <p>We provide reliable support to help students achieve their academic goals. Whether you're applying to
+                college or managing school challenges, our team is here to assist you every step ofthe way.</p>
+        </div>
+        <div class="fourth-section-btn">
+            <button>BOOK DEMO</button>
+        </div>
+    </div>
+
+
+    <!-- fifth-section -->
+
+    <div class="fifth-section">
+        <div class="fifth-title">
+            <p>
+                <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+                <span>PRICING PLAN</span>
+                <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+            </p>
+            <h3>Starter For Quick Clarity, Advanced For Steady <br> Progress— Your Learning, Your Choice!</h3>
+        </div>
+        <div class="pricing-container position-relative">
+            <div class="pricing-card">
+                <div class="pricing-card-style">
+
+                    <h3>Starter</h3>
+                    <h2>₹625</h2>
+                    <p>/Hour</p>
+                    <ul>
+                        <li><strong>No of Classes:</strong> <span>8</span></li>
+                        <li><strong>Duration Per Class:</strong> <span>1 Hour</span></li>
+                        <li><strong>Price:</strong> <span>₹5000</span></li>
+                        <li><strong>Per class Cost:</strong> <span>₹625</span></li>
+                    </ul>
+                    <p>Perfect for quick learning and concept clarity</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-card-style">
+
+                    <h3>Advanced Plan</h3>
+                    <h2>₹500</h2>
+                    <p>/Hour</p>
+                    <ul>
+                        <li><strong>No of Classes:</strong> <span>12</span></li>
+                        <li><strong>Duration Per Class:</strong> <span>1 Hour</span></li>
+                        <li><strong>Price:</strong> <span>₹6000</span></li>
+                        <li><strong>Per class Cost:</strong> <span>₹500</span></li>
+                    </ul>
+                    <p>Best for consistent progress and exam preparation.</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <img src="arrow.png" alt="" class="position-absolute"
+                style="bottom: -80px;; width: 160px; rotate: -150deg; right: 400px;">
+        </div>
+
+    </div>
+
+    <!-- OUR ACHIEVEMENTS -->
+
+    <div class="achievements position-relative">
+        <div class="achievements-container position-relative">
+            <img src="achievementsgirl.png" alt="">
+            <div class="achievement-details">
+                <p class="achievement-title"><i class="bi bi-square-fill"></i><span>OUR ACHIEVEMENTS</span></p>
+                <h2>
+                    Dedicated To Student Success <br>
+                    And Excellence
+                </h2>
+                <p class="achievement-desc">At our online tuition. we focus on personalized teaching. academic <br>
+                    support. and building confidence in students to help them excel in <br>
+                    their studies and achieve their goals.</p>
+                <div class="stats-section">
+                    <div class="stat-box">
+                        <h2>25+</h2>
+                        <p>Students Successfully Trained</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-box">
+                        <h2>23+</h2>
+                        <p>Improved Academic Scores</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-box">
+                        <h2>24+</h2>
+                        <p>Happy Parents</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MEET OUR CLIENTS -->
+
+    <div class="client-section">
+        <p class="client-title">
+            <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+            <span>PRICING PLAN</span>
+            <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+        </p>
+        <h3>Proudly Serving A Diverse Range Of Learners</h3>
+        <div class="client-img">
+            <div>
+
+                <img src="https://as2.ftcdn.net/jpg/02/07/68/43/1000_F_207684339_dFUUI0leWvNaKJR6Da0ZswUhLI4YzIGT.jpg" alt="">
+            </div>
+            <div>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyJt4lg_HEN3Uf_O-gm1pBjYi6lrz8Kc37Q&s" alt="">
+            </div>
+            <div>
+                <img src="https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_08.jpg" alt="">
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- WHY US ? -->
+
+    <div class="why-us position-relative">
+        <img src="arrow.png" alt="" class="why-arrow">
+        <p class="why-title">
+            <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+            <span>WHY US?</span>
+            <i class="bi bi-square-fill" style="font-size: .7em;"></i>
+        </p>
+        <h3>Know Why Should You Choose Only Us?</h3>
+
+        <div class="why-main">
+            <div class="why-item">
+                <i class="bi bi-bar-chart-steps"></i>
+                <div>
+
+                    <h5>Ace Educators</h5>
+                    <p>Skillful and Highly Adept Tutors
+                        Committed to Student Success!</p>
+                </div>
+            </div>
+            <div class="why-item">
+                <i class="bi bi-journal-medical" style="background-color: #ada72a;"></i>
+                <div>
+
+                    <h5>Flexible Sessions</h5>
+                    <p>24*6 Availability. choose Anytime,
+                        Any day!</p>
+                </div>
+            </div>
+            <div class="why-item">
+                <i class="bi bi-palette" style="background-color: #f05c72;"></i>
+                <div>
+
+                    <h5>Personalized Tutor</h5>
+                    <p>Dedicated I-on-I Tutor for
+                        Personalized Learning!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Second last footer -->
+
+
+    <div class="s-footer">
+        <div class="s-footer-logo">
+
+        </div>
+        <div class="s-footer-main">
+            <h3>Empowering Your Academic Success</h3>
+            <p>Unlock your true potential with expert guidance and personalized <br>
+                leaming. Join Vortex Classes and take the first step toward <br>
+                academic excellence.</p>
+                <button class="s-footer-btn">
+                    Apply Now
+                </button>
+        </div>
+    </div>
+
+
+
+
+    <div class="last-footer">
+            <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="brand-title " style="margin-bottom: 35px;">
+                        VORTEX CLASSES
+                    </h5>
+                    <p>Vortex Classes is dedicated to helping students excel through expert teaching, innovative methods, and a commitment to nurturing talent.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <h5  style="margin-bottom: 35px;">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Book Demo</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 style="margin-bottom: 35px;">Our Contacts</h5>
+                    <p>Address: Noida Sector 118</p>
+                    <p>Phone: 6395280045</p>
+                    <p>Email: info@vortexclasses.com</p>
+                    <p>Website: vortexclasses.com</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 style="margin-bottom: 35px;">Newsletter</h5>
+                    <p>Stay updated with the latest tips and learning strategies. Subscribe now!</p>
+                    <div class="input-container">
+                        <input type="email" class="email-input" placeholder="Your Email">
+                        <button class="send-button">SEND</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center mt-4">
+                <p>Copyright &copy; 2025 Vortex Classes | Designed and Developed by <a href="#" style="color: #ffc107;">TechiesGateway</a></p>
+                <div class="d-flex gap-3">
+
+                    <a href="#">Privacy Policy</a>  <a href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
